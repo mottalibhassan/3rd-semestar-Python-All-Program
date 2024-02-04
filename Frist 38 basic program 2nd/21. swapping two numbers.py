@@ -1,6 +1,9 @@
-a = int(input("Enter integer type data here:"))
-b = float(input("Enter float type data here:"))
-a = b
-b = a
-print("after swapping a value :", a )
-print("after swapping b value :", b )
+x = int(input("Enter the value of x:"))
+y = int(input("Enter the value of y:"))
+
+temp = x
+x = y
+y = temp
+
+print('The value of x after swapping:',x)
+print('The value of y after swapping:',y)

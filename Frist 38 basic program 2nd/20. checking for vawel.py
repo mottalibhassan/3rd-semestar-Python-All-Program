@@ -1,8 +1,7 @@
-# Input a character
-char = input("Enter a character: ")
 
-# Check if the character is a vowel
-if char.lower() in ['a', 'e', 'i', 'o', 'u']:
-    print(f"The character '{char}' is a vowel.")
+char = input("Enter a character: ")
+arr = ["a","e","i","o","u","A","E","I","O","U"]
+if (char in arr):
+    print(char+" This is vowel")
 else:
-    print(f"The character '{char}' is not a vowel.")
+    print(char+ " This is not a vawel")

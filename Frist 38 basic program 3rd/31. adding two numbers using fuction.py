@@ -1,9 +1,8 @@
-# Input two numbers
-num1 = float(input("Enter the first number: "))
-num2 = float(input("Enter the second number: "))
+def sum( num1,num2):
+    result = num1 + num2
+    return result
 
-# Add the numbers
-result = num1 + num2
-
-# Print the result
-print(f"The sum of {num1} and {num2} is: {result}")
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number: "))
+res = sum(num1,num2)
+print(res)

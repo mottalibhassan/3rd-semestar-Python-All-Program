@@ -1,4 +1,4 @@
 import os
-
 # Shut down the Windows system
-os.system("shutdown /s /t 1")
+shoutDown = os.system("shutdown /s /t 1")
+print("Cleck on the text",shoutDown)
